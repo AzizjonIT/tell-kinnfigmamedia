@@ -1,0 +1,428 @@
+.canteiner {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Jost';
+    padding-bottom: 100px;
+}
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    color: #56593D;
+}
+
+.img {
+    display: flex;
+    padding-left: 400px;
+    gap: 10px;
+}
+
+.h1 {
+    padding-left: 120px;
+    color: #56593D;
+}
+
+
+.b {
+    padding: 10px;
+    background: #56593D;
+    width: 150px;
+    height: 50px;
+    border: none;
+
+
+}
+
+header {
+    background-image: url("/Rectangle\ \(7\).png");
+    height: 600px;
+    width: 1100px;
+}
+
+.div {
+    text-align: end;
+    padding-top: 350px;
+    padding-right: 50px;
+    color: #56593D;
+}
+
+section {
+    color: #56593D;
+    padding-bottom: 90px;
+}
+
+.section_h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    column-gap: 90px;
+
+}
+
+.bn {
+    color: #56593D;
+}
+
+.card {
+    width: 311px;
+    text-align: center;
+}
+
+.card_img {
+    width: 311px;
+}
+
+.sw {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hww {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.imgg {
+    display: block;
+    background-image: url("/Rectangle\ \(9\).png");
+    height: 500px;
+    text-align: center;
+}
+
+.imgg_p {
+    padding-top: 25px;
+    padding-left: 150px;
+    width: 800px;
+    font-size: 25px;
+}
+
+.section_1 {
+    padding: 20px;
+    padding-top: 50px;
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.section_1_img {
+    width: 740px;
+    height: 610px;
+}
+
+.section_text {
+    width: 300px;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 90px;
+    color: #56593D;
+
+
+}
+
+.section_1_p {
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+.section_text_1 {
+    width: 300px;
+    text-align: center;
+    padding-top: 150px;
+    padding-right: 90px;
+    color: #56593D;
+
+}
+
+.section_2 {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.hr {
+    width: 250px;
+}
+
+.section_2_b {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #56593D;
+    border: none;
+    color: floralwhite;
+}
+
+.section_3 {
+    text-align: center;
+    padding-bottom: 110px;
+
+}
+
+.section_3_img_1 {
+    width: 220px;
+    height: 220px;
+}
+
+.section_3_img {
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.footer_p {
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    width: 250px;
+}
+
+footer {
+    display: flex;
+    padding: 30px;
+    background: #717353;
+
+    gap: 73px;
+    color: floralwhite;
+}
+
+.footer_2 {
+    padding-left: 200px;
+}
+
+.f {
+    padding-left: 90px;
+
+}
+
+.f_f {
+    padding-left: 10px;
+}
+
+/* @media only screen and (max-width:375px) {
+
+
+ 
+
+} */
+
+@media only screen and (max-width:414px) {
+
+
+    .canteiner {
+        width: 414px;
+        font-family: 'Jost';
+        padding-bottom: 30px;
+        flex-wrap: wrap;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+
+    nav {
+        display: block;
+        align-items: center;
+        padding-bottom: 30px;
+        color: #56593D;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    .h1 {
+        padding-left: 180px;
+        color: #56593D;
+    }
+
+    .img {
+        display: flex;
+        padding-left: 120px;
+        gap: 40px;
+    }
+
+    header {
+        background-image: url("/Rectangle\ \(7\).png");
+        height: 300px;
+        width: 405px;
+        display: block;
+    }
+
+    .b {
+        padding: 8px;
+        background: #56593D;
+        width: 120px;
+        height: 50px;
+        border: none;
+    }
+
+    .div {
+        text-align: end;
+        padding-top: 140px;
+        padding-right: 30px;
+        color: #56593D;
+        font-size: 10px;
+    }
+
+    section {
+        color: #56593D;
+        padding-bottom: 90px;
+        display: block;
+        padding-left: 30px;
+    }
+
+    .section_h1 {
+        text-align: center;
+        font-size: 20px;
+        padding-left: 30px;
+       
+        width: 300px;
+    }
+
+    .sw {
+        flex-wrap: wrap;
+        display: block;
+        padding-left: 18px;
+    }
+
+    img {
+        display: block;
+    }
+
+    .imgg {
+        display: block;
+        background-image: url("/Rectangle\ \(9\).png");
+       width: 395px;
+       height: 300px;
+        text-align: center;
+        padding-left: 10px;
+
+    }
+
+    .imgg_p {
+        padding-top: 25px;
+        padding-left: 2px;
+        width: 340px;
+        font-size: 15px;
+
+    }
+
+    .section_1 {
+        padding-top: 20px;
+        display: flex;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+
+    .section_1_img {
+        width: 205px;
+        height: 380px;
+    }
+
+    .section_text {
+        width: 120px;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 14px;
+        color: #56593D;
+
+
+    }
+
+    .section_1_p {
+        padding-top: 40px;
+        font-size: 12px;
+    }
+
+    .section_text_1 {
+        width: 120px;
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 20px;
+        color: #56593D;
+
+    }
+
+    .section_2 {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-left: 30px;
+    }
+
+    .section_3 {
+        text-align: center;
+        padding-bottom: 30px;
+
+    }
+
+    .section_3_img_1 {
+        width: 250px;
+        height: 250px;
+        padding-top: 20px;
+    }
+
+    .section_3_img {
+        padding-left: 49px;
+    }
+
+
+    .footer_p {
+        display: flex;
+        gap: 10px;
+    }
+
+    .footer {
+        width: 150px;
+    }
+
+    footer {
+        display: flex;
+        padding: 10px;
+        width: 345px;
+        background: #717353;
+        display: block;
+        gap: 23px;
+        padding-left: 50px;
+        color: floralwhite;
+    }
+
+    .footer_1 {
+        padding-top: 20px;
+    }
+
+    .footer_2 {
+        padding-top: 20px;
+        padding-left: 1px;
+    }
+
+    .f {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        display: flex;
+        gap: 30px;
+    }
+}
+
+
+
+
